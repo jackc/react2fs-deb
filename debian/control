@@ -1,15 +1,16 @@
 Source: react2fs
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: Jack Christensen <jack@jackchristensen.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/react2fs.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/react2fs.git;a=summary
+Homepage: https://github.com/jackc/react2fs
+Vcs-Git: https://github.com/jackc/react2fs.git
+Vcs-Browser: https://github.com/jackc/react2fs
 
 Package: react2fs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Watch for file changes and react
+ react2fs watches one or multiple directories for changes to files and reacts
+ by executing the supplied command.

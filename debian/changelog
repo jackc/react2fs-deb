@@ -1,5 +1,5 @@
-react2fs (0.1.1-1) unstable; urgency=low
+react2fs (0.1.1-1) trusty; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Jack Christensen <jack@jackchristensen.com>  Fri, 15 Aug 2014 14:12:05 -0500
