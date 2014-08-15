@@ -1,0 +1,26 @@
+From: Jack Christensen <jack@jackchristensen.com>
+Date: Fri, 15 Aug 2014 14:15:59 -0500
+Subject: Add Makefile for install
+
+---
+ Makefile | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+ create mode 100644 Makefile
+
+diff --git a/Makefile b/Makefile
+new file mode 100644
+index 0000000..06c8951
+--- /dev/null
++++ b/Makefile
+@@ -0,0 +1,11 @@
++BIN     = $(DESTDIR)/usr/bin
++
++react2fs: react2fs.go
++	GOPATH=$(CURDIR)/Godeps/_workspace go build -o react2fs
++
++install: react2fs
++	install -d $(BIN)
++	install ./react2fs $(BIN)
++
++clean:
++	rm -f react2fs
