@@ -1,0 +1,20 @@
+From: Jack Christensen <jack@jackchristensen.com>
+Date: Fri, 15 Aug 2014 14:52:24 -0500
+Subject: Fix Makefile
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 06c8951..1c9855c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,6 +1,6 @@
+ BIN     = $(DESTDIR)/usr/bin
+ 
+-react2fs: react2fs.go
++react2fs: *.go 
+ 	GOPATH=$(CURDIR)/Godeps/_workspace go build -o react2fs
+ 
+ install: react2fs
