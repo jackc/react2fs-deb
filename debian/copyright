@@ -8,7 +8,7 @@ License: Apache-2.0
  On Debian systems, the complete text of the Apache 2.0 License
  can be found in "/usr/share/common-licenses/Apache-2.0".
 
-Files: Godeps/_workspace/src/gopkg.in/fsnotify.v0
+Files: Godeps/_workspace/src/gopkg.in/fsnotify.v1
 Copyright: The Go Authors, fsnotify Authors
 License: The Go License
  Copyright (c) 2012 The Go Authors. All rights reserved.
