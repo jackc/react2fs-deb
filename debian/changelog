@@ -1,3 +1,11 @@
+react2fs (0.2.0-1) trusty; urgency=medium
+
+  * Update to fsnotify v1
+  * Bump version to 0.2.0
+  * Build with Go 1.4 to fix process cleanup
+
+ -- Jack Christensen <jack@jackchristensen.com>  Sat, 13 Dec 2014 10:44:06 -0600
+
 react2fs (0.1.2-1) trusty; urgency=medium
 
   * Fix crash on Stat failure
